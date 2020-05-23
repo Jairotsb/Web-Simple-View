@@ -1,0 +1,19 @@
+{
+  "name": "web-view-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "win32": "electron-packager . web-view-simple --platform=win32 --arch=ia32"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.0"
+  },  
+  "devDependencies": {
+    "electron-packager": "^14.2.1"
+  }
+}
