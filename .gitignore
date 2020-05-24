@@ -1,2 +1,4 @@
 exe-win32/
+exe-win64/
 node_modules/
+web-simple-view-win32-ia32/
