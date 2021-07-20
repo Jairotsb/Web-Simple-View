@@ -1,7 +1,36 @@
 body{
-  background: rgb(113, 89, 193);
+  background: rgba(0, 0, 255, 0.418);
   font-family: Arial, Helvetica, sans-serif;
   color: white; 
+  animation: animate infinite 10s
+}
+
+
+@keyframes animate {
+    10% {
+      background: rgba(0, 0, 255, 0.418)
+    }
+    
+    20% {
+      background: rgba(0, 0, 255, 0.507)
+    }
+
+    30% {
+      background: rgba(0, 0, 255, 0.534)
+    }
+
+    40% {
+      background: blue
+    }
+
+   99% {
+    background: rgb(113, 89, 193);
+   }
+   100% {
+    background: rgba(0, 0, 255, 0.418)
+  }
+    
+    
 }
 
 h1{
